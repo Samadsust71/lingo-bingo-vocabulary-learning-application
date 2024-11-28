@@ -11,8 +11,8 @@ const Tutorial = () => {
           </h2>
           <div className=" relative">
           <iframe 
-          className='w-full lg:w-[560px] h-[315px]'
-          src="https://www.youtube.com/embed/rGrBHiuPlT0?si=Tqv3gDRP1egPov4m" 
+          className='w-full lg:w-[560px] h-[315px] rounded-md'
+          src="https://www.youtube.com/embed/cdV87mEMkNg?si=LJQqIw76hdJqOSah" 
           title="YouTube video player" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerPolicy="strict-origin-when-cross-origin" 

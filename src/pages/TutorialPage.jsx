@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 const TutorialPage = () => {
   const videos = [
-    "https://www.youtube.com/embed/bOUqVC4XkOY?si=kEqLk1WjwZc6EsSb",
+    "https://www.youtube.com/embed/rGrBHiuPlT0?si=GT4I22oyL4b45Tx7",
+    "https://www.youtube.com/embed/bOUqVC4XkOY?si=Yy8GoDFHpG1Siass",
+    "https://www.youtube.com/embed/JnoZE51WZg4?si=HtncphfoGTaYWM-t",
     "https://www.youtube.com/embed/k74yjmfFb_A?si=-vaL_ngV0sPwEcgH",
-    "https://www.youtube.com/embed/k74yjmfFb_A?si=-vaL_ngV0sPwEcgH",
-    "https://www.youtube.com/embed/k74yjmfFb_A?si=-vaL_ngV0sPwEcgH",
-    "https://www.youtube.com/embed/k74yjmfFb_A?si=-vaL_ngV0sPwEcgH",
-    "https://www.youtube.com/embed/k74yjmfFb_A?si=-vaL_ngV0sPwEcgH",
+    "https://www.youtube.com/embed/KUIWRsVZZZA?si=3500znKYGHlkYZHL",
+    "https://www.youtube.com/embed/ZGGufccTLso?si=y5ojUb_KUCrCRb_X",
   ];
 
   return (
@@ -27,7 +27,7 @@ const TutorialPage = () => {
             >
               <div className="relative pb-[56.25%] h-0">
                 <iframe
-                  className="absolute top-0 left-0 w-full h-full"
+                  className="absolute top-0 left-0 w-full h-full rounded-md"
                   src={video}
                   title={`Tutorial Video ${index + 1}`}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
