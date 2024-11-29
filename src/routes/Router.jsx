@@ -38,14 +38,18 @@ const router = createBrowserRouter([
       {
         path: "/lessons/lesson/:id",
         element: <PrivateRoute><Lesson/></PrivateRoute>,
-        // loader: ({params})=>fetch(`http://localhost:3000/api/lesson/${params.id}`) //for data fetch in local server
-        loader: async({params})=>{
-           const res = await fetch(`/japanese_vocab.json`)
-           const data = await res.json()
-           const lessonData =  data.filter(item => item.lesson_no === parseInt(params.id));
-           return lessonData
+        //for data fetch from vercel server
+        loader: ({params})=>fetch(`https://lingo-bingo-server.vercel.app/api/lesson/${params.id}`)
+        
+        
+        //  from local folder
+        // loader: async({params})=>{
+        //    const res = await fetch(`/japanese_vocab.json`)
+        //    const data = await res.json()
+        //    const lessonData =  data.filter(item => item.lesson_no === parseInt(params.id));
+        //    return lessonData
            
-        } 
+        // } 
       },
       {
         path: "/auth/login",
