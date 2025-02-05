@@ -1,12 +1,15 @@
 # Lingo Bingo: A Vocabulary Learning Application
 
-### **Purpose**
-Lingo Bingo is a language learning application designed to help users improve their vocabulary in a specific language through interactive lessons and tutorials. With user-friendly navigation, engaging content, and rich features, this app aims to make learning a new language fun and accessible.
+![Lingo Bingo Preview](https://i.ibb.co.com/Y7X02VtP/Screenshot-66.png)
 
----
 
 ### **Live URL**
 [Lingo Bingo Live](https://lingo-bingo-7be04.web.app/)  
+
+---
+
+### **Purpose**
+Lingo Bingo is a language learning application designed to help users improve their vocabulary in a specific language through interactive lessons and tutorials. With user-friendly navigation, engaging content, and rich features, this app aims to make learning a new language fun and accessible.
 
 
 ---
